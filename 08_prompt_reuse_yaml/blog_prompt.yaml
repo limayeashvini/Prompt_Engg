@@ -1,0 +1,17 @@
+_type: prompt
+input_variables:
+- audience
+- tone
+- topic
+metadata: null
+name: null
+optional_variables: []
+output_parser: null
+partial_variables: {}
+tags: null
+template: "You are a professional blog writer.\nWrite a short, engaging blog post\
+  \ about '{topic}' for {audience}.\nUse a {tone} tone.\n\nInclude:\n- A catchy title\n\
+  - 2 short paragraphs (3\u20134 sentences each)\n- A closing line encouraging readers\
+  \ to comment or share."
+template_format: f-string
+validate_template: false
